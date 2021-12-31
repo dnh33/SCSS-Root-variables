@@ -1,0 +1,27 @@
+:root {
+  --color-first          : #65587f;
+  --color-second         : #f18867;
+  --color-third          : #e85f99;
+  --color-forth          : #50bda1;
+  --block-width          :   300px;
+  --block-height         :   270px;
+  --border-width         : .625rem;
+  --border-radius-outer  :     8px;
+  --border-radius-inner  : calc(var(--border-radius-outer) / 2);
+  --font-plain           : 'IBM Plex Sans', sans-serif;
+  --font-special         : 'Fredoka One', sans-serif;
+ 
+  box-sizing: border-box;
+  line-height: 1.4
+}
+
+*, *:before, *:after { box-sizing: inherit }
+
+body {
+  background: hsl(0, 0%, 95%);
+  color: #5e5e5e;
+  font-family: var(--font-plain);
+  height: 100vh;
+  display: flex;
+  justify-content: center; align-items: center;
+}
